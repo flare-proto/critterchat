@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'Mind';
+  src:  url("/static/font.woff") format('woff')
+}
+html {
+    font-family: "Mind";
+    background-color: black;
+    color: white;
+}
+
+.msgb {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 30px;
+}

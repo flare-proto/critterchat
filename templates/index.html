@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Flask SocketIO Example</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.0/socket.io.js"></script>
+        <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+        <h1>Flask SocketIO Demo</h1>
+        <div id="list">
+            
+        </div>
+        <div id="chanel">
+            <div id="msgs"></div>
+            <input id="inp" class="msgb">
+        </div>
+        <script src="{{url_for('static', filename='main.js')}}"></script>
+    </body>
+</html>
