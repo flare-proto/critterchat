@@ -21,7 +21,7 @@ rsa.generateKeyPair(function(keyPair) {
 
 
 function tx(msg) {
-    let encrypted = crypt.encrypt(publicKey, msg);
+    let encrypted = encryptText(msg,publicKey);
     socket.emit('message', {data: encrypted});
 }
 
